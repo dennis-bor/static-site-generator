@@ -7,8 +7,8 @@ from gencontent import generate_pages_recursive
 
 
 basepath = "/"
-if sys.argv[0] != "":
-    basepath = sys.argv[0]
+if sys.argv[1] != "":
+    basepath = sys.argv[1]
 
 dir_path_static = "./static"
 dir_path_public = "./docs"
